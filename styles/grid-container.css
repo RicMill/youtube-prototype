@@ -1,0 +1,13 @@
+.video-preview {
+    background-color: blue;
+    height: 100px;
+    width: 200px;
+
+}
+
+.grid-container {
+    display: grid;
+    gap: 2px___;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}

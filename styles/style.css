@@ -1,0 +1,26 @@
+ .side-bar {
+     position: fixed;
+     width: 100px;
+     top: 30px;
+     height: 100vh;
+     background-color: gainsboro;
+     padding: 0px 5px;
+
+ }
+
+ body {
+     padding: 0px;
+     margin: 0px;
+ }
+
+ .side-button {
+     border-style: none;
+     background-color: transparent;
+     color: white;
+
+ }
+
+ .icons {
+     width: 10px;
+     height: 10px;
+ }

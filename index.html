@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="shortcut icon" href="icons/youtube.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/topbar.css">
+    <link rel="stylesheet" href="styles/grid-container.css">
+</head>
+
+<body>
+
+    <div class="top-bar">
+        <div style="display: flex;align-items: center; gap: 7px;color: white;">
+            <img class="icons" src="icons/menu.png" alt="menu">
+
+            <div style="display: flex;align-items: center; gap: 2px;">
+                <img class="icons" src="icons/youtube.png" alt="youtube-logo" srcset="">
+                <p>Youtube</p>
+            </div>
+        </div>
+
+        <div style="display:flex;">
+
+            <input
+                style="border-top-left-radius:20px ;border-bottom-left-radius: 20px; border-style: solid; border-width: 1px;width:200px;margin: 0px;"
+                type="text" placeholder="Search">
+
+            <button
+                style="border-top-right-radius: 20px ;border-bottom-right-radius: 20px; border-width: 1px;border-style: solid; border-color: gray; margin: 0px;">
+                <img class="icons" src="icons/search-interface-symbol.png" alt="" srcset="">
+            </button>
+
+            <button>
+                <img class="icons" src="./icons/mic.png" alt="" srcset="">
+            </button>
+        </div>
+
+        <div style="display: flex; align-items: center; gap:5px">
+            <button style="border-radius: 15px; border-style: none;">Create</button>
+            <img class="icons" src="icons/bell.png" alt="" srcset="">
+            <div style="height: 15px; width:15px ;border-radius: 50%; background-color: aquamarine;">
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="side-bar">
+
+
+        <div>
+            <button class="side-button">
+                <img class="icons" src="icons/home (2).png" alt="home">
+                Home
+            </button>
+            <button class="side-button">
+                <img class="icons" src="icons/image.png" alt="shorts-icon" srcset="">
+                Shorts
+            </button>
+
+            <button class="side-button">
+                <img class="icons" src="icons/image.png" alt="shorts-icon" srcset="">
+                Playlist
+            </button>
+
+            <button class="side-button">
+                <img class="icons" src="icons/image.png" alt="shorts-icon" srcset="">
+                Playlist
+            </button>
+        </div>
+
+
+
+
+
+    </div>
+
+    <div style="position: relative; left: 120px; top: 40px;">
+        <div class="grid-container">
+            <div class="video-preview"></div>
+            <div class="video-preview"></div>
+            <div class="video-preview"></div>
+            <div class="video-preview"></div>
+            <div class="video-preview"></div>
+            <div class="video-preview"></div>
+        </div>
+
+    </div>
+
+
+
+
+
+</body>
+
+</html>
